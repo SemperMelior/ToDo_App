@@ -14,6 +14,7 @@
 		83D3C7511C10F8220047E57E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D3C7501C10F8220047E57E /* Images.xcassets */; };
 		83D3C7541C10F8220047E57E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D3C7521C10F8220047E57E /* LaunchScreen.xib */; };
 		83D3C7601C10F8230047E57E /* TodoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D3C75F1C10F8230047E57E /* TodoTests.m */; };
+		83D3C76E1C1103DD0047E57E /* TodoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D3C76D1C1103DD0047E57E /* TodoTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		83D3C7591C10F8220047E57E /* TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D3C75E1C10F8230047E57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83D3C75F1C10F8230047E57E /* TodoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoTests.m; sourceTree = "<group>"; };
+		83D3C76C1C1103DD0047E57E /* TodoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoTVC.h; sourceTree = "<group>"; };
+		83D3C76D1C1103DD0047E57E /* TodoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,11 @@
 		83D3C7421C10F8220047E57E /* Todo */ = {
 			isa = PBXGroup;
 			children = (
-				83D3C7471C10F8220047E57E /* AppDelegate.h */,
-				83D3C7481C10F8220047E57E /* AppDelegate.m */,
 				83D3C74A1C10F8220047E57E /* ViewController.h */,
 				83D3C74B1C10F8220047E57E /* ViewController.m */,
 				83D3C74D1C10F8220047E57E /* Main.storyboard */,
+				83D3C76C1C1103DD0047E57E /* TodoTVC.h */,
+				83D3C76D1C1103DD0047E57E /* TodoTVC.m */,
 				83D3C7501C10F8220047E57E /* Images.xcassets */,
 				83D3C7521C10F8220047E57E /* LaunchScreen.xib */,
 				83D3C7431C10F8220047E57E /* Supporting Files */,
@@ -96,6 +99,8 @@
 		83D3C7431C10F8220047E57E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83D3C7471C10F8220047E57E /* AppDelegate.h */,
+				83D3C7481C10F8220047E57E /* AppDelegate.m */,
 				83D3C7441C10F8220047E57E /* Info.plist */,
 				83D3C7451C10F8220047E57E /* main.m */,
 			);
@@ -222,6 +227,7 @@
 				83D3C74C1C10F8220047E57E /* ViewController.m in Sources */,
 				83D3C7491C10F8220047E57E /* AppDelegate.m in Sources */,
 				83D3C7461C10F8220047E57E /* main.m in Sources */,
+				83D3C76E1C1103DD0047E57E /* TodoTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
